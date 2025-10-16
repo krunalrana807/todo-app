@@ -1,0 +1,124 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.todo-container {
+  display: flex;
+  background-color: black;
+  height: 729px;
+  align-items: center;
+  justify-content: center;
+  gap: 30px
+}
+.page-counter{
+    background-color: white;
+    height: 450px;
+    width: 490px;
+    text-align: center;
+    border-radius: 2rem;
+    overflow: hidden;
+}
+#h1{
+   margin-top: 35px; 
+   text-align: center;
+   justify-content: center;
+}
+
+#h6, #p{
+    text-align: center;
+    font-size: larger;
+    margin-top: 35px;
+    justify-content: center;
+}
+/* .click{
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 85px;
+} */
+.bttn1{
+     margin-top: 50px;
+    height: 50px;
+    width: 200px;
+    font-size: larger;
+    background-color: bisque;
+    color: black;
+    border: none; 
+    cursor: pointer;
+    font-weight: bold;
+    text-shadow: 2px 2px 4px gray;
+    box-shadow: 4px 4px 4px gray;
+    row-gap: 1px;
+}
+.bttn2{
+     margin-top: 15px;
+    height: 50px;
+    width: 200px;
+    font-size: larger;
+    background-color: bisque;
+    color: black;
+    border: none; 
+    cursor: pointer;
+    font-weight: bold;
+    text-shadow: 2px 2px 4px gray;
+    box-shadow: 4px 4px 4px gray;
+      
+}
+.main{
+    background-color: white;
+    height: 450px;
+    width: 490px;
+    text-align: center;
+    border-radius: 2rem;
+}
+.header{
+    margin-top: 35px;
+}
+.item {
+  display: flex;
+  justify-content: left;
+  flex-direction:row;
+  margin-top: 30px;
+}
+form{
+    margin-left: 150px;
+    font-size: larger;
+}
+.divv{
+    margin-top: 20px;
+    display: flex;
+}
+p{
+    margin-left: 10px;
+    display: flex;
+    gap: 20px
+}
+.space{
+    margin-left: 16px;
+}
+.space2{
+    margin-left: 10px;
+}
+.space4{
+    margin-left: -35px;
+}
+span{
+    margin-left: 180px;
+}
+.btn{
+    justify-content: center;
+    margin-top: 50px;
+    margin-right: 5rem;
+    height: 50px;
+    width: 200px;
+    font-size: larger;
+    background-color: bisque;
+    color: black;
+    border: none; 
+    cursor: pointer;
+    font-weight: bold;
+    text-shadow: 2px 2px 4px gray;
+    box-shadow: 4px 4px 4px gray;
+}
+
