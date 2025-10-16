@@ -12,9 +12,6 @@ function App() {
 
   return (
     <>
-    <div className='container'>
-      
-    </div>
       <div className='todo-container'>
         <div className='page-counter'>
            <Counter />
