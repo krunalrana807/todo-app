@@ -10,7 +10,6 @@ import Useeffect from "./component/Useeffect";
 function App() {
   return (
     <>
-      <div className="container">
         <div className="todo-container">
           <div className="page-counter">
             <Counter />
@@ -25,7 +24,6 @@ function App() {
           </div>
         </div>
         {/* <Useeffect /> */}
-      </div>
     </>
   );
 }
